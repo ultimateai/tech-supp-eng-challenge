@@ -1,31 +1,37 @@
 const express = require("express");
+const morgan = require("morgan");
 const app = express();
 const port = 8000;
 
-app.use(express.static("public"));
+app.use(morgan("combined"));
 app.use(express.json());
 
 const sendExpense = require("./api/expense");
 
-app.post("/expenseReport", (req, res) => {
+app.get("/home", (_, res) => {
+  res.sendFile("public/home.html", { root: __dirname });
+});
+
+app.post("/expenseReportBeta", (req, res) => {
   try {
     console.info(
-      `Endpoint /expenseReport Received the following data, to be expensed: ${JSON.stringify(
+      `Endpoint /expenseReportBeta Received the following data, to be expensed: ${JSON.stringify(
         data
       )}`
     );
-    sendExpense(everythingFromRequest);
+    sendExpense(req.body);
+    console.info("worked!");
     res.send({ submitted: true });
   } catch (error) {
     res.status(400).send({ submitted: false });
   }
 });
 
-app.get("/expenseReport2", (req, res) => {
+app.post("/expenseReportProduction", (req, res) => {
   try {
     console.info(
-      `Endpoint /expenseReport2 Received the following data, to be expensed: ${JSON.stringify(
-        data
+      `Endpoint /expenseReportProduction Received the following data, to be expensed: ${JSON.stringify(
+        req.body.data
       )}`
     );
     const nameInput = req.body.nameValue;
@@ -33,6 +39,7 @@ app.get("/expenseReport2", (req, res) => {
     const locationInput = req.body.locationValue;
     const data = { nameInput, emailInput, locationInput };
     const dataValid = sendExpense(data);
+    console.info(dataValid);
     res.send({ submitted: dataValid });
   } catch (error) {
     res.status(400).send({ submitted: false });
