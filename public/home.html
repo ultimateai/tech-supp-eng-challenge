@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body style="margin: 3em">
+    <h1>Submit your expense report</h1>
+    <div>
+      <div class="form-example">
+        <label for="name">Enter your name: </label>
+        <input type="text" name="name" id="name" required />
+      </div>
+      <div class="form-example">
+        <label for="email">Enter your email: </label>
+        <input type="email" name="email" id="email" required />
+      </div>
+      <div class="form-example">
+        <label for="location">Enter location purchased: </label>
+        <input type="text" name="location" id="location" required />
+      </div>
+      <div class="form-example">
+        <button onclick="handleSubmission()">Submit</button>
+      </div>
+    </div>
+  </body>
+  <script>
+    const backendUrl = "http://localhost:8000/expenseReport";
+
+    const nameInput = document.querySelector("#name");
+    const emailInput = document.querySelector("#email");
+    const locationInput = document.querySelector("#location");
+
+    async function handleSubmission() {
+      const nameValue = nameInput.value;
+      const emailValue = emailInput.value;
+      const locationValue = locationInput.value;
+
+      const data = {
+        nameValue,
+        emailValue,
+        locationValue,
+      };
+
+      const apiResponse = await fetch(backendUrl, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+      const responseData = await apiResponse.json();
+      alert(JSON.stringify(responseData));
+    }
+  </script>
+</html>

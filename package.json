@@ -1,0 +1,27 @@
+{
+  "name": "tech-supp-eng-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node .",
+    "start:dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ultimateai/tech-supp-eng-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ultimateai/tech-supp-eng-challenge/issues"
+  },
+  "homepage": "https://github.com/ultimateai/tech-supp-eng-challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
