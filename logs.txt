@@ -1,0 +1,72 @@
+::1 - - [09/Dec/2021:13:45:31 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:45:33 +0000] "GET /home HTTP/1.1" 200 1668 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:45:33 +0000] "GET /home.css HTTP/1.1" 404 147 "https://5dcc-173-168-59-116.ngrok.io/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:45:33 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "https://5dcc-173-168-59-116.ngrok.io/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+Endpoint /expenseReportProduction Received the following data, to be expensed: undefined
+Received the following data, to be expensed: {"nameInput":"John Doe","emailInput":"johhn@msn.com","locationInput":"Toronto"}
+::1 - - [09/Dec/2021:13:45:50 +0000] "POST /expenseReportProduction HTTP/1.1" 400 19 "https://5dcc-173-168-59-116.ngrok.io/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+Endpoint /expenseReportProduction Received the following data, to be expensed: undefined
+Received the following data, to be expensed: {"nameInput":"John Doe","emailInput":"johhn@msn.com","locationInput":"Toronto"}
+::1 - - [09/Dec/2021:13:46:18 +0000] "POST /expenseReportProduction HTTP/1.1" 400 19 "https://5dcc-173-168-59-116.ngrok.io/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+Endpoint /expenseReportProduction Received the following data, to be expensed: undefined
+Received the following data, to be expensed: {"nameInput":"John","emailInput":"johhn@msn.com","locationInput":"hey"}
+::1 - - [09/Dec/2021:13:46:26 +0000] "POST /expenseReportProduction HTTP/1.1" 400 19 "https://5dcc-173-168-59-116.ngrok.io/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:47:09 +0000] "GET /home HTTP/1.1" 200 1668 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:47:10 +0000] "GET /home.css HTTP/1.1" 404 147 "http://5dcc-173-168-59-116.ngrok.io/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:47:10 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://5dcc-173-168-59-116.ngrok.io/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:47:21 +0000] "OPTIONS /expenseReportProduction HTTP/1.1" 200 4 "http://5dcc-173-168-59-116.ngrok.io/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:47:22 +0000] "OPTIONS /expenseReportProduction HTTP/1.1" 200 4 "http://5dcc-173-168-59-116.ngrok.io/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:47:25 +0000] "GET /home.css HTTP/1.1" 404 147 "http://5dcc-173-168-59-116.ngrok.io/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:47:42 +0000] "GET /home HTTP/1.1" 200 1668 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:47:42 +0000] "GET /home.css HTTP/1.1" 404 147 "https://5dcc-173-168-59-116.ngrok.io/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+Endpoint /expenseReportProduction Received the following data, to be expensed: undefined
+Received the following data, to be expensed: {"nameInput":"Claire Underwood","emailInput":"underwood@msn.com","locationInput":"Berlin"}
+::1 - - [09/Dec/2021:13:48:00 +0000] "POST /expenseReportProduction HTTP/1.1" 400 19 "https://5dcc-173-168-59-116.ngrok.io/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+    ::1 - - [09/Dec/2021:13:45:31 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:45:33 +0000] "GET /home HTTP/1.1" 200 1668 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:45:33 +0000] "GET /home.css HTTP/1.1" 404 147 "https://5dcc-173-168-59-116.ngrok.io/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:45:33 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "https://5dcc-173-168-59-116.ngrok.io/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+Endpoint /expenseReportProduction Received the following data, to be expensed: undefined
+Received the following data, to be expensed: {"nameInput":"Jim Carrie the third","emailInput":"heyJim@msn.com","locationInput":"Portugal"}
+::1 - - [09/Dec/2021:13:45:50 +0000] "POST /expenseReportProduction HTTP/1.1" 400 19 "https://5dcc-173-168-59-116.ngrok.io/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+Endpoint /expenseReportProduction Received the following data, to be expensed: undefined
+Received the following data, to be expensed: {"nameInput":"Johnny Cane","emailInput":"somebody@msn.com","locationInput":"Sweden"}
+::1 - - [09/Dec/2021:13:46:18 +0000] "POST /expenseReportProduction HTTP/1.1" 400 19 "https://5dcc-173-168-59-116.ngrok.io/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+Endpoint /expenseReportProduction Received the following data, to be expensed: undefined
+Received the following data, to be expensed: {"nameInput":"John","emailInput":"johhn@msn.com","locationInput":"hey"}
+::1 - - [09/Dec/2021:13:46:26 +0000] "POST /expenseReportProduction HTTP/1.1" 400 19 "https://5dcc-173-168-59-116.ngrok.io/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:47:09 +0000] "GET /home HTTP/1.1" 200 1668 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:47:10 +0000] "GET /home.css HTTP/1.1" 404 147 "http://5dcc-173-168-59-116.ngrok.io/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:47:10 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://5dcc-173-168-59-116.ngrok.io/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:47:21 +0000] "OPTIONS /expenseReportProduction HTTP/1.1" 200 4 "http://5dcc-173-168-59-116.ngrok.io/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:47:22 +0000] "OPTIONS /expenseReportProduction HTTP/1.1" 200 4 "http://5dcc-173-168-59-116.ngrok.io/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:47:25 +0000] "GET /home.css HTTP/1.1" 404 147 "http://5dcc-173-168-59-116.ngrok.io/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:47:42 +0000] "GET /home HTTP/1.1" 200 1668 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:47:42 +0000] "GET /home.css HTTP/1.1" 404 147 "https://5dcc-173-168-59-116.ngrok.io/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+Endpoint /expenseReportProduction Received the following data, to be expensed: undefined
+Received the following data, to be expensed: {"nameInput":"Claire Underwood","emailInput":"underwood@msn.com","locationInput":"Berlin"}
+::1 - - [09/Dec/2021:13:48:00 +0000] "POST /expenseReportProduction HTTP/1.1" 400 19 "https://5dcc-173-168-59-116.ngrok.io/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:45:31 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:45:33 +0000] "GET /home HTTP/1.1" 200 1668 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:45:33 +0000] "GET /home.css HTTP/1.1" 404 147 "https://5dcc-173-168-59-116.ngrok.io/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:45:33 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "https://5dcc-173-168-59-116.ngrok.io/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+Endpoint /expenseReportProduction Received the following data, to be expensed: undefined
+Received the following data, to be expensed: {"nameInput":"Frankie","emailInput":"frank@msn.com","locationInput":"Scotland"}
+::1 - - [09/Dec/2021:13:45:50 +0000] "POST /expenseReportProduction HTTP/1.1" 400 19 "https://5dcc-173-168-59-116.ngrok.io/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+Endpoint /expenseReportProduction Received the following data, to be expensed: undefined
+Received the following data, to be expensed: {"nameInput":"Kim Possible","emailInput":"kim@msn.com","locationInput":"Maui"}
+::1 - - [09/Dec/2021:13:46:18 +0000] "POST /expenseReportProduction HTTP/1.1" 400 19 "https://5dcc-173-168-59-116.ngrok.io/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+Endpoint /expenseReportProduction Received the following data, to be expensed: undefined
+Received the following data, to be expensed: {"nameInput":"John","emailInput":"johhn@msn.com","locationInput":"hey"}
+::1 - - [09/Dec/2021:13:46:26 +0000] "POST /expenseReportProduction HTTP/1.1" 400 19 "https://5dcc-173-168-59-116.ngrok.io/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:47:09 +0000] "GET /home HTTP/1.1" 200 1668 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:47:10 +0000] "GET /home.css HTTP/1.1" 404 147 "http://5dcc-173-168-59-116.ngrok.io/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:47:10 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://5dcc-173-168-59-116.ngrok.io/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:47:21 +0000] "OPTIONS /expenseReportProduction HTTP/1.1" 200 4 "http://5dcc-173-168-59-116.ngrok.io/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:47:22 +0000] "OPTIONS /expenseReportProduction HTTP/1.1" 200 4 "http://5dcc-173-168-59-116.ngrok.io/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:47:25 +0000] "GET /home.css HTTP/1.1" 404 147 "http://5dcc-173-168-59-116.ngrok.io/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:47:42 +0000] "GET /home HTTP/1.1" 200 1668 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+::1 - - [09/Dec/2021:13:47:42 +0000] "GET /home.css HTTP/1.1" 404 147 "https://5dcc-173-168-59-116.ngrok.io/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+Endpoint /expenseReportProduction Received the following data, to be expensed: undefined
+Received the following data, to be expensed: {"nameInput":"Claire Underwood","emailInput":"underwood@msn.com","locationInput":"Berlin"}
+::1 - - [09/Dec/2021:13:48:00 +0000] "POST /expenseReportProduction HTTP/1.1" 400 19 "https://5dcc-173-168-59-116.ngrok.io/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
